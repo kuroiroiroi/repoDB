@@ -4250,7 +4250,7 @@ class IlsangDistributionBot(commands.AutoShardedBot):
 						else:
 							bossData[i][7] = ''
 
-						tmp_msg = bossData[i][0] +'컷'
+						tmp_msg = bossData[i][0] +'カット'
 
 						curr_now = datetime.datetime.now()
 										
