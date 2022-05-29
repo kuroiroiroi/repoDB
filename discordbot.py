@@ -245,7 +245,7 @@ def init():
 	boss_nick = {}
 
 	inidata = open('test_setting.ini', 'r', encoding = 'utf-8')
-	boss_inidata = open('boss.ini', 'r', encoding = 'utf-8', encoding = 'cp949')
+	boss_inidata = open('boss.ini', 'r', encoding = 'cp949')
 	fixed_initdata = open('fixed_boss.ini', 'r', encoding = 'utf-8')
 	command_inidata = open('command.ini', 'r', encoding = 'utf-8')
 	kill_inidata = open('kill_list.ini', 'r', encoding = 'utf-8')
